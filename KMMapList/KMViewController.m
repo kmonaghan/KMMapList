@@ -76,7 +76,7 @@
         [self.mapAnnotations addObject:annotation];
     }
     
-    [self.listScrollView setContentSize:CGSizeMake(320 * (count + 1), 60)];
+    [self.listScrollView setContentSize:CGSizeMake(320 * count, 60)];
     
     MKCoordinateRegion newRegion;
     newRegion.center.latitude = 53.343895;
@@ -111,6 +111,8 @@
     if (_currentPage != page) 
     {
         _currentPage = page;
+        
+        [self.listMapView selectAnnotation:[self.mapAnnotations objectAtIndex:_currentPage] animated:YES];
     }
     
     NSLog(@"%d", _currentPage);
