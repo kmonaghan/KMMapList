@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34DF339B15BC6BDB004C5DF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DF339A15BC6BDB004C5DF0 /* UIKit.framework */; };
+		34DF339D15BC6BDB004C5DF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DF339C15BC6BDB004C5DF0 /* Foundation.framework */; };
+		34DF339F15BC6BDB004C5DF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DF339E15BC6BDB004C5DF0 /* CoreGraphics.framework */; };
+		34DF33A515BC6BDB004C5DF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34DF33A315BC6BDB004C5DF0 /* InfoPlist.strings */; };
+		34DF33A715BC6BDB004C5DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF33A615BC6BDB004C5DF0 /* main.m */; };
+		34DF33AB15BC6BDB004C5DF0 /* KMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF33AA15BC6BDB004C5DF0 /* KMAppDelegate.m */; };
+		34DF33AE15BC6BDB004C5DF0 /* KMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF33AD15BC6BDB004C5DF0 /* KMViewController.m */; };
+		34DF33B115BC6BDB004C5DF0 /* KMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DF33AF15BC6BDB004C5DF0 /* KMViewController.xib */; };
+		34DF33B915BC6BDB004C5DF0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DF33B815BC6BDB004C5DF0 /* SenTestingKit.framework */; };
+		34DF33BA15BC6BDB004C5DF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DF339A15BC6BDB004C5DF0 /* UIKit.framework */; };
+		34DF33BB15BC6BDB004C5DF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DF339C15BC6BDB004C5DF0 /* Foundation.framework */; };
+		34DF33C315BC6BDB004C5DF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34DF33C115BC6BDB004C5DF0 /* InfoPlist.strings */; };
+		34DF33C615BC6BDB004C5DF0 /* KMMapListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF33C515BC6BDB004C5DF0 /* KMMapListTests.m */; };
+		34DF33D015BC6BF0004C5DF0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DF33CF15BC6BF0004C5DF0 /* MapKit.framework */; };
+		34DF33E015BC6C54004C5DF0 /* KMItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF33DA15BC6C54004C5DF0 /* KMItem.m */; };
+		34DF33E115BC6C54004C5DF0 /* KMItemAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF33DC15BC6C54004C5DF0 /* KMItemAnnotation.m */; };
+		34DF33E215BC6C54004C5DF0 /* KMItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF33DE15BC6C54004C5DF0 /* KMItemView.m */; };
+		34DF33E315BC6C54004C5DF0 /* KMItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34DF33DF15BC6C54004C5DF0 /* KMItemView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34DF33BC15BC6BDB004C5DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34DF338D15BC6BDB004C5DF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34DF339515BC6BDB004C5DF0;
+			remoteInfo = KMMapList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34DF339615BC6BDB004C5DF0 /* KMMapList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMMapList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DF339A15BC6BDB004C5DF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34DF339C15BC6BDB004C5DF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34DF339E15BC6BDB004C5DF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34DF33A215BC6BDB004C5DF0 /* KMMapList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KMMapList-Info.plist"; sourceTree = "<group>"; };
+		34DF33A415BC6BDB004C5DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34DF33A615BC6BDB004C5DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34DF33A815BC6BDB004C5DF0 /* KMMapList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KMMapList-Prefix.pch"; sourceTree = "<group>"; };
+		34DF33A915BC6BDB004C5DF0 /* KMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMAppDelegate.h; sourceTree = "<group>"; };
+		34DF33AA15BC6BDB004C5DF0 /* KMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMAppDelegate.m; sourceTree = "<group>"; };
+		34DF33AC15BC6BDB004C5DF0 /* KMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMViewController.h; sourceTree = "<group>"; };
+		34DF33AD15BC6BDB004C5DF0 /* KMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMViewController.m; sourceTree = "<group>"; };
+		34DF33B015BC6BDB004C5DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KMViewController.xib; sourceTree = "<group>"; };
+		34DF33B715BC6BDB004C5DF0 /* KMMapListTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMMapListTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DF33B815BC6BDB004C5DF0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		34DF33C015BC6BDB004C5DF0 /* KMMapListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KMMapListTests-Info.plist"; sourceTree = "<group>"; };
+		34DF33C215BC6BDB004C5DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34DF33C415BC6BDB004C5DF0 /* KMMapListTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMMapListTests.h; sourceTree = "<group>"; };
+		34DF33C515BC6BDB004C5DF0 /* KMMapListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMMapListTests.m; sourceTree = "<group>"; };
+		34DF33CF15BC6BF0004C5DF0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		34DF33D915BC6C54004C5DF0 /* KMItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMItem.h; sourceTree = "<group>"; };
+		34DF33DA15BC6C54004C5DF0 /* KMItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMItem.m; sourceTree = "<group>"; };
+		34DF33DB15BC6C54004C5DF0 /* KMItemAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMItemAnnotation.h; sourceTree = "<group>"; };
+		34DF33DC15BC6C54004C5DF0 /* KMItemAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMItemAnnotation.m; sourceTree = "<group>"; };
+		34DF33DD15BC6C54004C5DF0 /* KMItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMItemView.h; sourceTree = "<group>"; };
+		34DF33DE15BC6C54004C5DF0 /* KMItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMItemView.m; sourceTree = "<group>"; };
+		34DF33DF15BC6C54004C5DF0 /* KMItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMItemView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34DF339315BC6BDB004C5DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DF33D015BC6BF0004C5DF0 /* MapKit.framework in Frameworks */,
+				34DF339B15BC6BDB004C5DF0 /* UIKit.framework in Frameworks */,
+				34DF339D15BC6BDB004C5DF0 /* Foundation.framework in Frameworks */,
+				34DF339F15BC6BDB004C5DF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DF33B315BC6BDB004C5DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DF33B915BC6BDB004C5DF0 /* SenTestingKit.framework in Frameworks */,
+				34DF33BA15BC6BDB004C5DF0 /* UIKit.framework in Frameworks */,
+				34DF33BB15BC6BDB004C5DF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34DF338B15BC6BDB004C5DF0 = {
+			isa = PBXGroup;
+			children = (
+				34DF33A015BC6BDB004C5DF0 /* KMMapList */,
+				34DF33BE15BC6BDB004C5DF0 /* KMMapListTests */,
+				34DF339915BC6BDB004C5DF0 /* Frameworks */,
+				34DF339715BC6BDB004C5DF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34DF339715BC6BDB004C5DF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34DF339615BC6BDB004C5DF0 /* KMMapList.app */,
+				34DF33B715BC6BDB004C5DF0 /* KMMapListTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34DF339915BC6BDB004C5DF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34DF33CF15BC6BF0004C5DF0 /* MapKit.framework */,
+				34DF339A15BC6BDB004C5DF0 /* UIKit.framework */,
+				34DF339C15BC6BDB004C5DF0 /* Foundation.framework */,
+				34DF339E15BC6BDB004C5DF0 /* CoreGraphics.framework */,
+				34DF33B815BC6BDB004C5DF0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34DF33A015BC6BDB004C5DF0 /* KMMapList */ = {
+			isa = PBXGroup;
+			children = (
+				34DF33D915BC6C54004C5DF0 /* KMItem.h */,
+				34DF33DA15BC6C54004C5DF0 /* KMItem.m */,
+				34DF33DB15BC6C54004C5DF0 /* KMItemAnnotation.h */,
+				34DF33DC15BC6C54004C5DF0 /* KMItemAnnotation.m */,
+				34DF33DD15BC6C54004C5DF0 /* KMItemView.h */,
+				34DF33DE15BC6C54004C5DF0 /* KMItemView.m */,
+				34DF33DF15BC6C54004C5DF0 /* KMItemView.xib */,
+				34DF33A915BC6BDB004C5DF0 /* KMAppDelegate.h */,
+				34DF33AA15BC6BDB004C5DF0 /* KMAppDelegate.m */,
+				34DF33AC15BC6BDB004C5DF0 /* KMViewController.h */,
+				34DF33AD15BC6BDB004C5DF0 /* KMViewController.m */,
+				34DF33AF15BC6BDB004C5DF0 /* KMViewController.xib */,
+				34DF33A115BC6BDB004C5DF0 /* Supporting Files */,
+			);
+			path = KMMapList;
+			sourceTree = "<group>";
+		};
+		34DF33A115BC6BDB004C5DF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34DF33A215BC6BDB004C5DF0 /* KMMapList-Info.plist */,
+				34DF33A315BC6BDB004C5DF0 /* InfoPlist.strings */,
+				34DF33A615BC6BDB004C5DF0 /* main.m */,
+				34DF33A815BC6BDB004C5DF0 /* KMMapList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34DF33BE15BC6BDB004C5DF0 /* KMMapListTests */ = {
+			isa = PBXGroup;
+			children = (
+				34DF33C415BC6BDB004C5DF0 /* KMMapListTests.h */,
+				34DF33C515BC6BDB004C5DF0 /* KMMapListTests.m */,
+				34DF33BF15BC6BDB004C5DF0 /* Supporting Files */,
+			);
+			path = KMMapListTests;
+			sourceTree = "<group>";
+		};
+		34DF33BF15BC6BDB004C5DF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34DF33C015BC6BDB004C5DF0 /* KMMapListTests-Info.plist */,
+				34DF33C115BC6BDB004C5DF0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34DF339515BC6BDB004C5DF0 /* KMMapList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DF33C915BC6BDB004C5DF0 /* Build configuration list for PBXNativeTarget "KMMapList" */;
+			buildPhases = (
+				34DF339215BC6BDB004C5DF0 /* Sources */,
+				34DF339315BC6BDB004C5DF0 /* Frameworks */,
+				34DF339415BC6BDB004C5DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMMapList;
+			productName = KMMapList;
+			productReference = 34DF339615BC6BDB004C5DF0 /* KMMapList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34DF33B615BC6BDB004C5DF0 /* KMMapListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DF33CC15BC6BDB004C5DF0 /* Build configuration list for PBXNativeTarget "KMMapListTests" */;
+			buildPhases = (
+				34DF33B215BC6BDB004C5DF0 /* Sources */,
+				34DF33B315BC6BDB004C5DF0 /* Frameworks */,
+				34DF33B415BC6BDB004C5DF0 /* Resources */,
+				34DF33B515BC6BDB004C5DF0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34DF33BD15BC6BDB004C5DF0 /* PBXTargetDependency */,
+			);
+			name = KMMapListTests;
+			productName = KMMapListTests;
+			productReference = 34DF33B715BC6BDB004C5DF0 /* KMMapListTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34DF338D15BC6BDB004C5DF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KM;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = None;
+			};
+			buildConfigurationList = 34DF339015BC6BDB004C5DF0 /* Build configuration list for PBXProject "KMMapList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34DF338B15BC6BDB004C5DF0;
+			productRefGroup = 34DF339715BC6BDB004C5DF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34DF339515BC6BDB004C5DF0 /* KMMapList */,
+				34DF33B615BC6BDB004C5DF0 /* KMMapListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34DF339415BC6BDB004C5DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DF33A515BC6BDB004C5DF0 /* InfoPlist.strings in Resources */,
+				34DF33B115BC6BDB004C5DF0 /* KMViewController.xib in Resources */,
+				34DF33E315BC6C54004C5DF0 /* KMItemView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DF33B415BC6BDB004C5DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DF33C315BC6BDB004C5DF0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34DF33B515BC6BDB004C5DF0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34DF339215BC6BDB004C5DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DF33A715BC6BDB004C5DF0 /* main.m in Sources */,
+				34DF33AB15BC6BDB004C5DF0 /* KMAppDelegate.m in Sources */,
+				34DF33AE15BC6BDB004C5DF0 /* KMViewController.m in Sources */,
+				34DF33E015BC6C54004C5DF0 /* KMItem.m in Sources */,
+				34DF33E115BC6C54004C5DF0 /* KMItemAnnotation.m in Sources */,
+				34DF33E215BC6C54004C5DF0 /* KMItemView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DF33B215BC6BDB004C5DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DF33C615BC6BDB004C5DF0 /* KMMapListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34DF33BD15BC6BDB004C5DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34DF339515BC6BDB004C5DF0 /* KMMapList */;
+			targetProxy = 34DF33BC15BC6BDB004C5DF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34DF33A315BC6BDB004C5DF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34DF33A415BC6BDB004C5DF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34DF33AF15BC6BDB004C5DF0 /* KMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34DF33B015BC6BDB004C5DF0 /* en */,
+			);
+			name = KMViewController.xib;
+			sourceTree = "<group>";
+		};
+		34DF33C115BC6BDB004C5DF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34DF33C215BC6BDB004C5DF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34DF33C715BC6BDB004C5DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34DF33C815BC6BDB004C5DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34DF33CA15BC6BDB004C5DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMMapList/KMMapList-Prefix.pch";
+				INFOPLIST_FILE = "KMMapList/KMMapList-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34DF33CB15BC6BDB004C5DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMMapList/KMMapList-Prefix.pch";
+				INFOPLIST_FILE = "KMMapList/KMMapList-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34DF33CD15BC6BDB004C5DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KMMapList.app/KMMapList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMMapList/KMMapList-Prefix.pch";
+				INFOPLIST_FILE = "KMMapListTests/KMMapListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		34DF33CE15BC6BDB004C5DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KMMapList.app/KMMapList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMMapList/KMMapList-Prefix.pch";
+				INFOPLIST_FILE = "KMMapListTests/KMMapListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34DF339015BC6BDB004C5DF0 /* Build configuration list for PBXProject "KMMapList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DF33C715BC6BDB004C5DF0 /* Debug */,
+				34DF33C815BC6BDB004C5DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34DF33C915BC6BDB004C5DF0 /* Build configuration list for PBXNativeTarget "KMMapList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DF33CA15BC6BDB004C5DF0 /* Debug */,
+				34DF33CB15BC6BDB004C5DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34DF33CC15BC6BDB004C5DF0 /* Build configuration list for PBXNativeTarget "KMMapListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DF33CD15BC6BDB004C5DF0 /* Debug */,
+				34DF33CE15BC6BDB004C5DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34DF338D15BC6BDB004C5DF0 /* Project object */;
+}
